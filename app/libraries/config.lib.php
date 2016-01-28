@@ -13,10 +13,10 @@ class Config{
 	# Database connection credentials.
 	# Hostname should almost always be set to 'localhost'.
 	public static $database = [
-		'hostname' => 'localhost',
-		'username' => 'wadenair_admin',
-		'password' => 'admin1234',
-		'database' => 'wadenair_finishr'
+		'hostname' => 'l',
+		'username' => '',
+		'password' => '',
+		'database' => ''
 	];
 	
 	
