@@ -1,0 +1,31 @@
+textarea {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  -webkit-appearance: none;
+  display: block;
+  background: #fafafa;
+  color: #636363;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #757575;
+}
+
+textarea:focus { outline: none; }
+
+textarea:focus ~ label, textarea.used ~ label {
+  top: -20px;
+  transform: scale(.75); left: -2px;
+  font-size: 14px; 
+  color: #4a89dc;
+}
+
+textarea:focus ~ .bar:before, textarea:focus ~ .bar:after { width: 50%; }
+
+textarea:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+}
+.input-group-addon
+	font-size 20px
+	border none
+	background none
